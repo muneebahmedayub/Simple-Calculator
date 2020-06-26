@@ -1,0 +1,57 @@
+.main{
+    width: min-content;
+    margin: 50px auto;
+}
+input{
+    text-align: right;
+    height: 80px;
+    width: 500px;
+    border: none;
+    font-size: 60px;
+    background-color: transparent;
+
+}
+input:focus{
+    outline: none
+}
+table{
+    width: 100%;
+}
+td{
+    text-align: center;
+    width: 10px;
+    margin: 10px 20px;
+}
+button{
+    width: 100%;
+    min-width: 120px;
+    padding: 15px 10px;
+    font-size: 30px;
+    border: none;
+    transition: 0.2s ease;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: rgb(201, 201, 201);
+}
+button:active{
+    background-color: rgb(190, 190, 190);
+}
+.resultBtn{
+    background-color: skyblue
+}
+.resultBtn:hover{
+    background-color: rgb(66, 183, 230);
+}
+.operator{
+    color: rgb(240, 114, 29);
+}
+#result{
+    font-size: 40px;
+    color: grey;
+}
+.clr{
+    color: red;
+}
